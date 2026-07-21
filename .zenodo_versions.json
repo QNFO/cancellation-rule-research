@@ -1,26 +1,26 @@
 {
-  "note": "Zenodo version chain tracking. UPDATE this file IMMEDIATELY after every successful publish. The latest_deposit_id is the SINGLE SOURCE OF TRUTH for 'which deposit to call actions/newversion on' \u2014 NEVER guess or use stale IDs.",
+  "note": "Zenodo version chain tracking. UPDATE this file IMMEDIATELY after every successful publish.",
   "canonical_chain": [
     {
-      "doi": "10.5281/zenodo.21469392",
-      "deposit_id": "21469392",
-      "tag": "v0.1-phase0",
-      "status": "pre-reserved",
-      "published_at": null
+      "doi": "10.5281/zenodo.21469958",
+      "deposit_id": "21469958",
+      "tag": "v1.0-published",
+      "status": "published",
+      "published_at": "2026-07-21"
     }
   ],
-  "latest_deposit_id": "21469392",
-  "latest_doi": "10.5281/zenodo.21469392",
-  "canonical_citation": "Phase 0 \u2014 Infrastructure setup. No publication yet.",
+  "latest_deposit_id": "21469958",
+  "latest_doi": "10.5281/zenodo.21469958",
+  "canonical_citation": "QNFO Research. The Ontology of Boundary-Crossing: Spencer-Brown Cancellation Rule Defended. DOI: 10.5281/zenodo.21469958. 2026-07-21.",
+  "legacy_deposit": {
+    "deposit_id": "21469392",
+    "doi": "10.5281/zenodo.21469392",
+    "status": "pre-reserved (replaced by 21469958)",
+    "note": "Original pre-reservation. Superseded by 21469958 which contains the full Provenance Bundle and is properly published."
+  },
   "publish_instructions": {
-    "first_publish": "Create new deposit: POST /api/deposit/depositions with {metadata: {title: '...', upload_type: 'publication'}}. THEN update this file with the deposit_id and DOI.",
-    "subsequent_publishes": "Create new version: POST /api/deposit/depositions/{latest_deposit_id}/actions/newversion. FIRST verify GET returns state='done'.",
+    "next_version": "Create new version: POST /api/deposit/depositions/21469958/actions/newversion. FIRST verify GET returns state='done'.",
     "token_check": "Run scripts/zenodo-token-check.py if any 403 occurs before assuming token is dead.",
-    "required_scopes": [
-      "deposit:write",
-      "deposit:actions",
-      "user:email"
-    ],
-    "concept_recid": "21469391"
+    "required_scopes": ["deposit:write", "deposit:actions", "user:email"]
   }
 }
