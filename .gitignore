@@ -1,0 +1,35 @@
+# Ephemeral scripts (may contain tokens during development)
+_*.py
+_*.js
+_*.ps1
+_*.json
+
+# Sensitive files
+.env
+*.token
+keys.json
+
+# Build artifacts
+*.pdf
+PROVENANCE-BUNDLE*.zip
+paper.build.md
+paper.tex
+paper.aux
+paper.log
+paper.out
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
