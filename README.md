@@ -4,7 +4,9 @@
 
 **Status:** Phase 0 — Infrastructure Setup
 **Parent:** [29-Schisms Deep-Dive](https://github.com/QNFO/29-schisms-deepdive) (Zenodo DOI: [10.5281/zenodo.21469000](https://doi.org/10.5281/zenodo.21469000))
-**Zenodo DOI:** [10.5281/zenodo.21469958](https://doi.org/10.5281/zenodo.21469958) (v1.0, published 2026-07-21)
+**Zenodo DOI:** [10.5281/zenodo.21470178](https://doi.org/10.5281/zenodo.21470178) (v1.1, published 2026-07-21)
+**IPFS (DNSLink):** [cancellation-rule.qnfo.org](https://dweb.link/ipns/cancellation-rule.qnfo.org) | CID: `bafkreibjcv4pr6mz7jqajyhehm7e44ze3mqwyqjazb4ijzp3vpeqo6nsou`
+**Previous:** [v1.0 DOI 10.5281/zenodo.21469958](https://doi.org/10.5281/zenodo.21469958)
 
 ---
 
