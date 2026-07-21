@@ -15,11 +15,19 @@
       "status": "published",
       "published_at": "2026-07-21",
       "note": "New version with individual paper files in bundle + R2 direct access"
+    },
+    {
+      "doi": "10.5281/zenodo.21470438",
+      "deposit_id": "21470438",
+      "tag": "v1.2",
+      "status": "published",
+      "published_at": "2026-07-21",
+      "note": "Individual paper.md + paper.pdf files now browseable on Zenodo (uploaded via POST multipart, not bucket PUT)"
     }
   ],
-  "latest_deposit_id": "21470178",
-  "latest_doi": "10.5281/zenodo.21470178",
-  "canonical_citation": "QNFO Research. The Ontology of Boundary-Crossing. DOI: 10.5281/zenodo.21470178. 2026-07-21.",
+  "latest_deposit_id": "21470438",
+  "latest_doi": "10.5281/zenodo.21470438",
+  "canonical_citation": "QNFO Research. The Ontology of Boundary-Crossing. DOI: 10.5281/zenodo.21470438. 2026-07-21.",
   "legacy_deposit": {
     "deposit_id": "21469392",
     "doi": "10.5281/zenodo.21469392",
