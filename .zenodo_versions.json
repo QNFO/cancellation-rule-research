@@ -1,21 +1,26 @@
 {
-  "note": "Zenodo version chain tracking. UPDATE this file IMMEDIATELY after every successful publish. The latest_deposit_id is the SINGLE SOURCE OF TRUTH for 'which deposit to call actions/newversion on' — NEVER guess or use stale IDs.",
+  "note": "Zenodo version chain tracking. UPDATE this file IMMEDIATELY after every successful publish. The latest_deposit_id is the SINGLE SOURCE OF TRUTH for 'which deposit to call actions/newversion on' \u2014 NEVER guess or use stale IDs.",
   "canonical_chain": [
     {
-      "doi": null,
-      "deposit_id": null,
+      "doi": "10.5281/zenodo.21469392",
+      "deposit_id": "21469392",
       "tag": "v0.1-phase0",
-      "status": "pending-pre-reservation",
+      "status": "pre-reserved",
       "published_at": null
     }
   ],
-  "latest_deposit_id": null,
-  "latest_doi": null,
-  "canonical_citation": "Phase 0 — Infrastructure setup. No publication yet.",
+  "latest_deposit_id": "21469392",
+  "latest_doi": "10.5281/zenodo.21469392",
+  "canonical_citation": "Phase 0 \u2014 Infrastructure setup. No publication yet.",
   "publish_instructions": {
     "first_publish": "Create new deposit: POST /api/deposit/depositions with {metadata: {title: '...', upload_type: 'publication'}}. THEN update this file with the deposit_id and DOI.",
     "subsequent_publishes": "Create new version: POST /api/deposit/depositions/{latest_deposit_id}/actions/newversion. FIRST verify GET returns state='done'.",
     "token_check": "Run scripts/zenodo-token-check.py if any 403 occurs before assuming token is dead.",
-    "required_scopes": ["deposit:write", "deposit:actions", "user:email"]
+    "required_scopes": [
+      "deposit:write",
+      "deposit:actions",
+      "user:email"
+    ],
+    "concept_recid": "21469391"
   }
 }
