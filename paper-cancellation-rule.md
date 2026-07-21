@@ -1,4 +1,4 @@
-﻿# The Ontology of Boundary-Crossing: Spencer-Brown's Cancellation Rule Defended
+# The Ontology of Boundary-Crossing: Spencer-Brown's Cancellation Rule Defended
 
 **Author:** QNFO Research
 **DOI:** [10.5281/zenodo.21469392](https://doi.org/10.5281/zenodo.21469392)
